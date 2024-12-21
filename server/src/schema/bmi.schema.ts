@@ -4,7 +4,7 @@ import { Document } from 'mongoose';
 
 export type BmiDocument = Bmi & Document ;
 
-@Schema()
+@Schema({ timestamps: true })
 export class Bmi {
   @Prop({ required: true })
   userId: string; 

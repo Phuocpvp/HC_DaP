@@ -86,13 +86,13 @@ class HomeScreen extends StatelessWidget {
                 trailing: Icon(Icons.scale),
               ),
             ),
-            SizedBox(height: 16),
-            Text(
-              'Biểu đồ sức khỏe',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
-            // Thêm một biểu đồ ở đây (sử dụng package như fl_chart hoặc syncfusion_flutter_charts)
-            Expanded(child: Placeholder()),
+            // SizedBox(height: 16),
+            // Text(
+            //   'Biểu đồ sức khỏe',
+            //   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            // ),
+            // // Thêm một biểu đồ ở đây (sử dụng package như fl_chart hoặc syncfusion_flutter_charts)
+            // Expanded(child: Placeholder()),
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
